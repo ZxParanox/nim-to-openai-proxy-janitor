@@ -90,7 +90,7 @@ const MODEL_MAPPING = {
 };
 
 // Default model used when an unrecognized alias is requested.
-const DEFAULT_MODEL = 'nvidia/llama-3.3-nemotron-super-49b-v1.5';
+const DEFAULT_MODEL = 'z-ai/glm-5.3-flash';
 
 const FALLBACK_MODELS = [];
 
