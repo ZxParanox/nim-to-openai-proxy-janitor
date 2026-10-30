@@ -75,6 +75,7 @@ const MODEL_MAPPING = {
   'gpt-3.5o': 'nvidia/nemotron-mini-4b-instruct',
   'gpt-4-flash': 'deepseek-ai/deepseek-v4-flash-0731',
   'mistral': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'mistral-large-4': 'mistralai/mistral-large-4-1t-a52b',
   'mistral-turbo': 'mistralai/mistral-medium-3.5-128b',
   'mistral-pro': 'mistralai/mistral-small-4-119b-2603',
   'mistral-nemo': 'mistralai/mistral-nemotron',
@@ -90,7 +91,7 @@ const MODEL_MAPPING = {
 };
 
 // Default model used when an unrecognized alias is requested.
-const DEFAULT_MODEL = 'z-ai/glm-5.3-flash';
+const DEFAULT_MODEL = 'mistralai/mistral-large-4-1t-a52b';
 
 const FALLBACK_MODELS = [];
 
